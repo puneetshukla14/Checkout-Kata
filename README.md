@@ -1,10 +1,14 @@
-# Solution 1st
-I make a pyth prgmram to calculate total price of items with discounts.
-lets me explain the code
-I created two dictionaries  1st is pri stores item prices and 2nd one is dis stores discount offers 
-I loop through each unique item in the input string using set( items  )
-For each item i counted its total occurrences using items.count( item)
-If the item has a discount i calculated how many times the offer can be applied and remaining items were charged at the normal price
-If no discount is available i multiplied the count with the item price.
-I kept adding the total for each item usnigg keep total 0
-and at the lasst the function returns the total price.
+I created a Python program to calculate the total price of items, considering applicable discounts.  
+
+The program uses two dictionaries:  
+1. `pri` stores item prices.  
+2. `dis` stores discount offers.  
+
+The logic works as follows:  
+- I iterate through each unique item in the input string using `set(items)`.  
+- For each item, I count its total occurrences using `items.count(item)`.  
+- If a discount is available, I calculate how many times the offer can be applied, and the remaining items are charged at the regular price.  
+- If no discount applies, I multiply the count by the item's price.  
+- I maintain a `total` variable initialized to 0 and keep adding the calculated price for each item.  
+
+Finally, the function returns the total price.
