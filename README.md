@@ -1,16 +1,10 @@
-# CodeKata
-
-Hello sir and mam I am Puneet Shukla
-so let me quickly explain what this code does 
-
-Sir it is a simple checkout system that I have written in Python
-The idea is I have got four items A, B, C, D each has a price, and a group of them have also offers discount 
-For example if you buy 3 A items, you get them for 130 instead of 150  same for B
-
-Sir I used counter to  count how many times each item purchased
-and sir then i loop through each item andcheck if it enable for a discount and if yes i apply the offer as times as possible and extra gets billed at the normal price
-and those cases there are no offers in that case it just multiplies the item count by its price and in the end i added multiple test cases with different combinations of items
-
-Sir I also run my code in vs code and it runs perfect withhh correct total price outpuut
-
-and thank you sir/mam for taking the time to review my assignment i really and enjoy to learn new problem statement
+# Solution 1st
+I make a pyth prgmram to calculate total price of items with discounts.
+lets me explain the code
+I created two dictionaries  1st is pri stores item prices and 2nd one is dis stores discount offers 
+I loop through each unique item in the input string using set( items  )
+For each item i counted its total occurrences using items.count( item)
+If the item has a discount i calculated how many times the offer can be applied and remaining items were charged at the normal price
+If no discount is available i multiplied the count with the item price.
+I kept adding the total for each item usnigg keep total 0
+and at the lasst the function returns the total price.
