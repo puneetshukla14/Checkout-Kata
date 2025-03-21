@@ -1,3 +1,5 @@
+Solution 1
+
 I created a Python program to calculate the total price of items, considering applicable discounts.  
 
 The program uses two dictionaries:  
@@ -12,3 +14,4 @@ The logic works as follows:
 - I maintain a `total` variable initialized to 0 and keep adding the calculated price for each item.  
 
 Finally, the function returns the total price.
+
