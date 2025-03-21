@@ -19,12 +19,12 @@ Finally, the function returns the total price.
 
 Solution 2
 
-I created a Python program using Object-Oriented Programming (OOPs) to calculate the total price of items, including applicable discounts.
+I created a Python program using Object-Oriented Programming to calculate the total price of items, including applicable discounts.
 
 The program has a Checkout class that contains:
 
 prices dictionary to store the price of each item.
-dis dictionary to store discount offers (like 3 A's for 130, 2 B's for 45).
+dis dictionary to store discount offers like 3 A's for 130, 2 B's for 45.
 In the calculate_total() method:
 
 I looped through each unique item using set(items).
