@@ -15,3 +15,20 @@ The logic works as follows:
 
 Finally, the function returns the total price.
 
+
+
+Solution 2
+
+I created a Python program using Object-Oriented Programming (OOPs) to calculate the total price of items, including applicable discounts.
+
+The program has a Checkout class that contains:
+
+prices dictionary to store the price of each item.
+dis dictionary to store discount offers (like 3 A's for 130, 2 B's for 45).
+In the calculate_total() method:
+
+I looped through each unique item using set(items).
+For every item, I counted its total occurrences.
+If a discount is available, I applied it and calculated the remaining at normal price.
+If no discount, I simply multiplied the count with the item price.
+The total price is calculated and returned.
